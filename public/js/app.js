@@ -16931,7 +16931,6 @@ module.exports = __webpack_require__(167);
 /* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -58484,9 +58483,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-d30fe086", Component.options)
+    hotAPI.createRecord("data-v-bb684f08", Component.options)
   } else {
-    hotAPI.reload("data-v-d30fe086", Component.options)
+    hotAPI.reload("data-v-bb684f08", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
@@ -58507,13 +58506,13 @@ var content = __webpack_require__(159);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(161)("075a2131", content, false);
+var update = __webpack_require__(161)("54120fa3", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d30fe086\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./DashboardComponent.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d30fe086\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./DashboardComponent.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-bb684f08\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./DashboardComponent.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-bb684f08\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0&bustCache!./DashboardComponent.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -59209,7 +59208,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         createTimer: function createTimer(project) {
             var _this2 = this;
 
-            console.log(project);
             window.axios.post('/projects/' + project.id + '/timers', { name: this.newTimerName }).then(function (response) {
                 project.timers.push(response.data);
                 _this2.startTimer(response.data.project, response.data);
@@ -59858,7 +59856,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-d30fe086", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-bb684f08", module.exports)
   }
 }
 
